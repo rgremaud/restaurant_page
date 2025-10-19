@@ -1,7 +1,17 @@
 // index.js
+import { homeClick } from "./navigation";
+import { menuClick } from "./navigation";
+import { aboutClick } from "./navigation";
+import { createHomeDiv } from "./home";
 
-import { createHomeDiv } from "./home.js";
+// add click events for nav bar
 
+homeClick();
+menuClick();
+aboutClick();
+
+// load home page for initial load
 const homeDiv = createHomeDiv();
+const content = document.getElementById('content')
 
-document.getElementById('content').appendChild(homeDiv);
+content.appendChild(homeDiv);
