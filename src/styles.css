@@ -1,0 +1,45 @@
+/*
+3AA6B9
+FFD0D0
+FF9EAA
+C1ECE4
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: #C1ECE4;
+    font-family: "Reddit Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    margin: 1vh 1.5vw 1vh 1.5vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pageTab { 
+    width: 50vw;
+    height: 100vh;
+    background-color: #FFD0D0;
+}
+
+.title {
+    text-align: center;
+}

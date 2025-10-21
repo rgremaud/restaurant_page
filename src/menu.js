@@ -2,6 +2,7 @@
 
 function createMenuDiv () {
     const menuDiv = document.createElement("div");
+    menuDiv.className = "pageTab";
     menuDiv.id = "menuDiv";
 
     createTitle(menuDiv);
@@ -12,7 +13,7 @@ function createMenuDiv () {
 
 function createTitle (parentDiv) {
     const title = document.createElement("h1");
-    title.id = "title";
+    title.className = "title";
     title.textContent = "Theo's Menu"
 
     parentDiv.appendChild(title);

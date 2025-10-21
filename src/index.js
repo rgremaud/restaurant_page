@@ -1,4 +1,7 @@
 // index.js
+import "./reset.css";
+import "./styles.css";
+
 import { homeClick } from "./navigation";
 import { menuClick } from "./navigation";
 import { aboutClick } from "./navigation";

@@ -2,6 +2,7 @@
 
 function createAboutDiv () {
     const aboutDiv = document.createElement("div");
+    aboutDiv.className = "pageTab";
     aboutDiv.id = "aboutDiv";
 
     createTitle(aboutDiv);
@@ -11,7 +12,7 @@ function createAboutDiv () {
 
 function createTitle (parentDiv) {
     const title = document.createElement("h1");
-    title.id = "title";
+    title.className = "title";
     title.textContent = "About Theo's Icecream"
 
     parentDiv.appendChild(title);

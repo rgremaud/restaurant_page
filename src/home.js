@@ -2,6 +2,7 @@
 
 function createHomeDiv () {
     const homeDiv = document.createElement("div");
+    homeDiv.className = "pageTab";
     homeDiv.id = "homeDiv";
 
     createTitle(homeDiv);
@@ -14,7 +15,7 @@ function createHomeDiv () {
 
 function createTitle (parentDiv) {
     const title = document.createElement("h1");
-    title.id = "title";
+    title.className = "title";
     title.textContent = "Theo's Icecream"
 
     parentDiv.appendChild(title);
@@ -37,7 +38,7 @@ function createInfo (parentDiv) {
 }
 
 function createHours (parentDiv) {
-    const topLine = document.createElement("h2");
+    const topLine = document.createElement("h3");
     topLine.id = "topLine";
     topLine.textContent = "Open Daily"
 
