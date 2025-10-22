@@ -1,15 +1,15 @@
 /*
-3AA6B9
-FFD0D0
-FF9EAA
-C1ECE4
+purple - #8E7DBE
+light blue - #C0DEFF
+light pink - FFE5F1
+cream - #FFF8E1
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-    background-color: #C1ECE4;
+    background-color: #FFF8E1;
     font-family: "Reddit Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -22,24 +22,49 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-bottom: solid 8px #A6D6D6;
 }
 
 button {
-    margin: 1vh 1.5vw 1vh 1.5vw;
+    margin: 1vh 1.5vw 0vh 1.5vw;
+    color: #8E7DBE;
+    border-style: none;
+    padding: .5vh 3vw .5vh 3vw;
+    border-radius: 1vw 1vw 0 0;
+    font-weight: 500;
+}
+
+button:hover { 
+    background-color: #A6D6D6;
 }
 
 #content {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #8E7DBE;
+    border-top: solid 8px #8E7DBE;
 }
 
 .pageTab { 
     width: 50vw;
     height: 100vh;
-    background-color: #FFD0D0;
+    background-color: #FFF8E1;
 }
 
-.title {
+.title { 
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 4rem;
+    font-weight: 300;
+    font-style: normal;
     text-align: center;
+}
+
+
+.hours {
+    text-align: center;
+}
+
+#info {
+    margin: 0 2vw 0 2vw;
 }

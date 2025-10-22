@@ -39,11 +39,11 @@ function createInfo (parentDiv) {
 
 function createHours (parentDiv) {
     const topLine = document.createElement("h3");
-    topLine.id = "topLine";
+    topLine.className = "hours";
     topLine.textContent = "Open Daily"
 
     const bottomLine = document.createElement("div");
-    bottomLine.id = "bottomLine";
+    bottomLine.className = "hours";
     bottomLine.textContent = "11AM to 9PM"
 
     parentDiv.appendChild(topLine);
