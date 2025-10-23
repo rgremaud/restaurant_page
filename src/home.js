@@ -1,4 +1,5 @@
 // home.js
+import iceCream from "./ice_cream.jpg";
 
 function createHomeDiv () {
     const homeDiv = document.createElement("div");
@@ -20,17 +21,6 @@ function createTitle (parentDiv) {
 
     parentDiv.appendChild(title);
 }
-
-/*
-import odinImage from "./odin.png";
-   
-const image = document.createElement("img");
-image.src = odinImage;
-   
-document.body.appendChild(image);
-*/
-
-import iceCream from "./ice_cream.jpg";
 
 function insertImage (parentDiv) {
     const image = document.createElement("img");
