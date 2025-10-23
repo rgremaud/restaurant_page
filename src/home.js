@@ -16,15 +16,29 @@ function createHomeDiv () {
 function createTitle (parentDiv) {
     const title = document.createElement("h1");
     title.className = "title";
-    title.textContent = "Theo's Icecream"
+    title.textContent = "Theo's Ice Cream"
 
     parentDiv.appendChild(title);
 }
 
+/*
+import odinImage from "./odin.png";
+   
+const image = document.createElement("img");
+image.src = odinImage;
+   
+document.body.appendChild(image);
+*/
+
+import iceCream from "./ice_cream.jpg";
+
 function insertImage (parentDiv) {
-    const image = document.createElement("div");
+    const image = document.createElement("img");
+    image.src = iceCream;
     image.id = "image";
-    image.textContent = "Place holder for homepage image";
+
+    image.style.maxWidth = '70%';
+    image.style.height = 'auto';
 
     parentDiv.appendChild(image);
 }
@@ -32,7 +46,7 @@ function insertImage (parentDiv) {
 function createInfo (parentDiv) {
     const info = document.createElement("p");
     info.id = "info";
-    info.textContent = `Most people don't think a 3 year old can create delicious icecream.\n  Come try homemade creations from our young prodigy.`
+    info.textContent = `Created by a very serious 3-year-old ice cream expert, Theo's Ice Cream is where things get extra silly and super sweet. We take our fun as seriously as our ice cream (which is not very serious at all). Come on in—it's always a good day for a scoop!`
 
     parentDiv.appendChild(info);
 }

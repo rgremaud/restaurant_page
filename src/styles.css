@@ -54,7 +54,7 @@ button:hover {
 
 .title { 
     font-family: "Fascinate Inline", system-ui;
-    font-size: 4rem;
+    font-size: 3.75rem;
     font-weight: 300;
     font-style: normal;
     text-align: center;
@@ -66,5 +66,10 @@ button:hover {
 }
 
 #info {
-    margin: 0 2vw 0 2vw;
+    margin: 4vh 15% 4vh 15%;
 }
+
+#image {
+    margin: 0 15% 0 15%;
+}
+
