@@ -1,6 +1,6 @@
 // menu.js
 
-function createMenuDiv () {
+function createMenuDiv() {
     const menuDiv = document.createElement("div");
     menuDiv.className = "pageTab";
     menuDiv.id = "menuDiv";
@@ -11,7 +11,7 @@ function createMenuDiv () {
     return menuDiv;
 }
 
-function createTitle (parentDiv) {
+function createTitle(parentDiv) {
     const title = document.createElement("h1");
     title.className = "title";
     title.textContent = "Theo's Menu"
@@ -19,33 +19,29 @@ function createTitle (parentDiv) {
     parentDiv.appendChild(title);
 }
 
-function createMenuDetails (parentDiv) {
+function createMenuDetails(parentDiv) {
     // Specials - $15
-    const specialTitle = document.createElement("h3");
+    const specialTitle = document.createElement("h2");
     specialTitle.textContent = "Specials - $15";
+
+    parentDiv.appendChild(specialTitle);
 
     const specialItems = [
         {
             special: "The Kitchen Sink",
             description: "Scoop of Strawberry, Mint-Chocolate Chip, Coffee, Cookie-Dough topped with our housemade sprinkles",
-        }, 
+        },
         {
-            special: "Sprinksplosion",
+            special: "Sprinklesplosion",
             description: "Choice of any three flavors topped with our housemade chocolate sauce and a triple serving of sprinkles",
         },
         {
-        special: "Dealer's Choice",
-        description: "Three random flavors selected by our ice cream wizard",
+            special: "Dealer's Choice",
+            description: "Three random flavors selected by our ice cream wizard",
         },
     ]
-    /*
-        Iterate over the specialItems array
-        Create a menuItem div for each special
-        create a div for special and description within each menuItem div
-        add styling in CSS
-    */
-    // rework this so you iterate over each array item and then each item underneath
-    Object.keys(specialItems).forEach(item => {
+
+    specialItems.forEach(item => {
         const menuItem = document.createElement("div");
         menuItem.className = "menuItem";
 
@@ -61,8 +57,7 @@ function createMenuDetails (parentDiv) {
         menuItem.appendChild(description);
 
         parentDiv.appendChild(menuItem)
-
-        })
+    })
 
     // Single Scoop - $5 
     // Double Scoop - $8
@@ -72,7 +67,7 @@ function createMenuDetails (parentDiv) {
     // Mint Chocolate Chip Rocky Road Cookie Dough
     // Coffee Peach Cobbler Cookies-n-Cream
 
-    parentDiv.appendChild(specialTitle);
+
 }
 
 export { createMenuDiv };
