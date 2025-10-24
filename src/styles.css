@@ -65,15 +65,24 @@ button:hover {
     text-align: center;
 }
 
+
 #info {
-    margin: 4vh 15% 4vh 15%;
+    margin: 4vh 0 4vh 0;
 }
 
-#image {
-    margin: 0 15% 0 15%;
+.specials {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2vh;
 }
 
 .specialTitle {
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+#flavorList { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;;
 }

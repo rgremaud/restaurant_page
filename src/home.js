@@ -27,7 +27,7 @@ function insertImage (parentDiv) {
     image.src = iceCream;
     image.id = "image";
 
-    image.style.maxWidth = '70%';
+    image.style.maxWidth = '100%';
     image.style.height = 'auto';
 
     parentDiv.appendChild(image);
