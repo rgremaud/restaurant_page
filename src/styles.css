@@ -1,11 +1,3 @@
-/*
-purple - #8E7DBE
-light blue - #C0DEFF
-light pink - FFE5F1
-cream - #FFF8E1
-
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
@@ -85,4 +77,9 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;;
+}
+
+#leftAndRightDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

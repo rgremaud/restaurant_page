@@ -1,6 +1,6 @@
 import { createHomeDiv } from "./home.js";
 import { createMenuDiv } from "./menu.js";
-import { createAboutDiv } from "./about.js";
+import { createContactDiv } from "./contact.js";
 
 function homeClick () {
     const home = document.getElementById("home");
@@ -24,17 +24,17 @@ function menuClick () {
   });
 }
 
-function aboutClick () {
-    const about = document.getElementById("about");
+function contactClick () {
+    const contact = document.getElementById("contact");
     const content = document.getElementById('content')
 
-    about.addEventListener("click", function() {
+    contact.addEventListener("click", function() {
         content.textContent = "";
-        const aboutDiv = createAboutDiv();
-        content.appendChild(aboutDiv);
+        const contactDiv = createContactDiv();
+        content.appendChild(contactDiv);
   });
 }
 
 export { homeClick }
 export { menuClick }
-export { aboutClick }
+export { contactClick }
