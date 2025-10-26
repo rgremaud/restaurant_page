@@ -83,3 +83,11 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+#leftDiv { 
+    margin: 1vh;
+}
+
+#rightDiv > h3 {
+    margin: 2vh 0 .5vh 0;
+}
