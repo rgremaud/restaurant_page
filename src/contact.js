@@ -47,9 +47,9 @@ function createTitle (parentDiv) {
 }
 
 function createAddress (parentDiv) {
-    const addressLineOne = document.createElement("h3");
+    const addressLineOne = document.createElement("h2");
     addressLineOne.className = "lineOne";
-    addressLineOne.textContent = "Address";
+    addressLineOne.textContent = "address";
 
     const addressLineTwo = document.createElement("div");
     addressLineTwo.className = "address";
@@ -66,9 +66,9 @@ function createAddress (parentDiv) {
 }
 
 function contactUs (parentDiv) {
-    const contactUs = document.createElement("h3");
+    const contactUs = document.createElement("h2");
     contactUs.className = "contact";
-    contactUs.textContent = "Contact us"
+    contactUs.textContent = "contact us"
 
     
     const phoneNumber = document.createElement("div");
@@ -85,9 +85,9 @@ function contactUs (parentDiv) {
 }
 
 function createHours (parentDiv) {
-    const topLine = document.createElement("h3");
+    const topLine = document.createElement("h2");
     topLine.className = "contactHours";
-    topLine.textContent = "Open Daily"
+    topLine.textContent = "open daily"
 
     const bottomLine = document.createElement("div");
     bottomLine.className = "contactHours";

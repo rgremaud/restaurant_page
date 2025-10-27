@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Grand+Hotel&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
     background-color: #FFF8E1;
@@ -52,24 +52,20 @@ button:hover {
     text-align: center;
 }
 
-
-.hours {
-    text-align: center;
-}
-
-
 #info {
     margin: 4vh 0 4vh 0;
 }
 
 .specials {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 2vh;
+    font-family: "Grand Hotel", system-ui;
 }
 
 .specialTitle {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-family: "Grand Hotel", system-ui;
     font-weight: 500;
 }
 
@@ -88,6 +84,9 @@ button:hover {
     margin: 1vh;
 }
 
-#rightDiv > h3 {
+#rightDiv > h2,
+#homeDiv > h2 {
     margin: 2vh 0 .5vh 0;
+    font-family: "Grand Hotel", system-ui;
+    font-weight: 400;
 }

@@ -42,13 +42,16 @@ function createInfo (parentDiv) {
 }
 
 function createHours (parentDiv) {
-    const topLine = document.createElement("h3");
+    const topLine = document.createElement("h2");
     topLine.className = "hours";
-    topLine.textContent = "Open Daily"
+    topLine.textContent = "open daily"
 
     const bottomLine = document.createElement("div");
     bottomLine.className = "hours";
     bottomLine.textContent = "11AM to 9PM"
+
+    topLine.style.textAlign = "center";
+    bottomLine.style.textAlign = "center"
 
     parentDiv.appendChild(topLine);
     parentDiv.appendChild(bottomLine);

@@ -22,21 +22,21 @@ function createTitle(parentDiv) {
 function createMenuDetails(parentDiv) {
     const specialTitle = document.createElement("div");
     specialTitle.className = "specials"
-    specialTitle.textContent = "Specials - $15";
+    specialTitle.textContent = "specials - $15";
 
     parentDiv.appendChild(specialTitle);
 
     const specialItems = [
         {
-            special: "The Kitchen Sink",
+            special: "the kitchen sink",
             description: "Scoop of Strawberry, Mint-Chocolate Chip, Coffee, Cookie-Dough topped with our housemade sprinkles",
         },
         {
-            special: "Sprinklesplosion",
+            special: "sprinklesplosion",
             description: "Choice of any three flavors topped with our housemade chocolate sauce and a triple serving of sprinkles",
         },
         {
-            special: "Dealer's Choice",
+            special: "dealer's choice",
             description: "Four random flavors selected by our ice cream wizard",
         },
     ]
@@ -61,12 +61,12 @@ function createMenuDetails(parentDiv) {
 
     const singleScoop = document.createElement("div");
     singleScoop.className = "specialTitle";
-    singleScoop.textContent = "Single Scoop - $5";
+    singleScoop.textContent = "single scoop - $5";
     singleScoop.style.marginTop = "2vh";
     
     const doubleScoop = document.createElement("div");
     doubleScoop.className = "specialTitle";
-    doubleScoop.textContent = "Double Scoop - $8";
+    doubleScoop.textContent = "double scoop - $8";
     doubleScoop.style.marginBottom = "2vh";
 
     parentDiv.appendChild(singleScoop);
@@ -74,7 +74,7 @@ function createMenuDetails(parentDiv) {
 
     const flavors = document.createElement("div");
     flavors.className = "specialTitle";
-    flavors.textContent = "Flavors";
+    flavors.textContent = "flavors";
 
     parentDiv.appendChild(flavors);
 
