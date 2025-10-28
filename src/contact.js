@@ -1,5 +1,5 @@
 // contact.js
-import vertCream from "./vert_icream.jpg"
+import vertCream from "./theo_vert.jpg"
 
 function createContactDiv () {
     const contactDiv = document.createElement("div");

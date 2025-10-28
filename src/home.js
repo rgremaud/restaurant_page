@@ -1,5 +1,5 @@
 // home.js
-import iceCream from "./ice_cream.jpg";
+import iceCream from "./theo_horiz.jpg";
 
 function createHomeDiv () {
     const homeDiv = document.createElement("div");
